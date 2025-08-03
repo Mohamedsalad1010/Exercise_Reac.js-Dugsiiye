@@ -41,12 +41,7 @@ function App() {
 
  }
 
- const nextStepValidation = () => {
  
-
-  dispatch({ type:"next-step"})
- }
-
  const nextStep = () =>{
    if(state.step === 1) {
     if(!state.firstName.trim() || !state.lastName.trim()){
