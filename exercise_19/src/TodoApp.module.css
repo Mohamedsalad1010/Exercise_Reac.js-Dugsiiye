@@ -1,0 +1,77 @@
+.todoAppContainer{
+    width: 500px;
+    background-color: white;
+padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.inputTodo{
+   
+    padding: 6px;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+}
+
+.formBtn{
+    margin-left: 3px;
+    background-color: #7F22FE;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.ulTodo{
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+.listItemcontainer{
+    margin-top: 20px;
+    background-color: #F5F5F4;
+    padding: 10px; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.deletItemBtn{
+    background: none;
+    color:#FF2056 ;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+  cursor: pointer;
+}
+
+.inCompleted {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.checkmark {
+  margin-right: 8px;
+  color: green;
+  font-weight: bold;
+    cursor: pointer;
+}
