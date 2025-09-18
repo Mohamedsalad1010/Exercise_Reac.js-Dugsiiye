@@ -1,0 +1,65 @@
+body{
+  background-color: #F5F5F4;
+}
+
+.errors{
+  color:  tomato;
+  font-size: 14px;
+  margin: 0;
+}
+
+.formContainer{
+  max-width: 300px;
+  margin: 0 auto;
+background-color: white;
+box-shadow: 0px 0px  5px  ;
+padding: 20px 15px;
+border-radius: 5px;
+}
+
+.formFielFlex{
+  display: flex;
+  flex-direction: column;
+}
+
+.formFielFlex label{
+  font-size: 14px;
+  color: #121212;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+ 
+.formFielFlex    .inputs {
+  border: 1px solid rgb(165, 165, 165);
+  padding: 5px 0px;
+  border-radius: 5px;
+ 
+}
+
+.formFielFlex .inputs:focus {
+  outline: 1px solid tomato;
+}
+
+.selectioGrade{
+    border: 1px solid rgb(165, 165, 165);
+  padding: 5px 0px;
+  border-radius: 5px;
+}
+.selectioGrade:focus{
+    outline: 1px solid tomato;
+}
+
+.checkbox {
+border: none;
+}
+.fromBtn{
+  width: 100%;
+  color: white; 
+  background-color: tomato;
+  border: none;
+  padding: 5px ;
+  margin-top: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
